@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="hoverButton">Hover over me</button>
+    <div id="hiddenMessage" class="hidden">This is a hidden message!</div>
+
+    <h1>To-Do List</h1>
+    <input type="text" id="todoInput" placeholder="Enter a new task...">
+    <button id="addTodoButton">Add To-Do</button>
+
+    <ul id="todoList"></ul>
+
+    <h1>Car List</h1>
+    <label for="cars">Choose a car:</label>
+
+    <div class="select">
+        <select name="cars" id="cars">
+            <option value="" disabled selected>Select an item</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Saab">Saab</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+        </select>
+    </div>
+
+    <ul id="carList"></ul>
+    
+
+    <script src="index.js"  type="module"></script>
+</body>
+</html>
